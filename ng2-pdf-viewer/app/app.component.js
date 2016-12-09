@@ -53,7 +53,7 @@ var AppComponent = (function () {
     };
     AppComponent.prototype.onPageResize = function () {
         this.updateStylePageContent();
-        this.pdfViewer.refreshSize();
+        this.pdfViewer.updateSize();
     };
     __decorate([
         core_1.ViewChild('myPdfViewer'), 
