@@ -6,17 +6,21 @@
 }
 
 .select-file__container {
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 .select-file__container p {
+    width: 100%;
     margin-bottom: 0;
 }
 
 .page-number {
+    width: 100%;
     width: 50px;
 }
 
 pdf-viewer {
+    width: 100%;
     display: block;
 }
